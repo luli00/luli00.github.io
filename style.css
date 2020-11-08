@@ -1,18 +1,36 @@
 <style>
-            body {
-                white-space: nowrap;
-            }
-            div {
-                display: inline-block;
-                box-sizing: border-box;
-            }
-            #menu {
-                min-width: 200px;
-                max-width: 400px;
-                width: 20%;
-            }
-            #conteudo {
-                min-width: 400px;
-                width: 80%;
-            }
-        </style>
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+    body {
+        white-space: nowrap;
+        font-family: 'Ubuntu', sans-serif;
+
+    }
+    div {
+        display: inline-block;
+        box-sizing: border-box;
+        vertical-align: middle;
+        
+    }
+    #menu {
+        min-width: 200px;
+        max-width: 400px;
+        width: 20%;
+    }
+    #conteudo {
+        min-width: 400px;
+        width: 80%;
+    }
+    nav ul {
+        list-style: none;
+    }
+    nav a{
+        color: #000000;
+    }
+    nav a:hover {
+        color: rgb(84, 126, 87);
+    }
+    nav li {
+        padding: 5px;
+    }
+    
+</style>
