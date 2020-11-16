@@ -2,7 +2,7 @@
 
     body {
         white-space: nowrap;
-        background-color: rgb(241, 237, 192);
+        background-color: #f1edc0;
 
     }
     div {
@@ -25,10 +25,12 @@
         min-width: 200px;
         max-width: 400px;
         width: 20%;
+        position: fixed;
     }
     #conteudo {
         min-width: 400px;
         width: 60%;
+        margin-left: 20%;
     }
     nav ul {
         list-style: none;
@@ -66,7 +68,7 @@
     }
 
     #projpedagogicos a:hover{
-        color: rgb(202, 123, 123);
+        color: #ca7b7b;
         font-weight: bold;
         text-decoration: none;
     }
@@ -75,6 +77,11 @@
         max-width: 300px;
         max-height: 300px;
         border: 1px solid #A4CBFF;
-        border-radius: 13px;
+        border-radius: 6px;
+        -webkit-box-shadow: 4px 4px 3px -2px rgba(199,173,113,0.4); 
+        box-shadow: 4px 4px 3px -2px rgba(199,173,113,0.4);
     }
     
+    .data {
+        color: #858585;
+    }
